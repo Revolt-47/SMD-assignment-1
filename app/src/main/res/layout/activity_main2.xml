@@ -6,23 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"
-        android:layout_marginTop="40dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Forgot Your Password"
         android:textSize="25dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:textColor="#000000"
-
         android:textStyle="bold" />
 
     <TextView
@@ -32,77 +27,45 @@
         android:textSize="16dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
         android:textColor="#000000" />
 
-
+    <!-- Email Input Field -->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your email"
         android:layout_marginBottom="20dp"
         android:padding="10dp"
-        android:background="@drawable/rounded_edittext_bg"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:textSize="21dp"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:text="Password"
-        android:layout_marginBottom="5dp"
-        android:textColor="#000000"
-        android:textSize="16dp" />
-
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your password"
-        android:padding="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
-    android:textSize="21dp"
-    android:inputType="textPassword" />
+        android:textSize="21dp" />
 
-
-
-
-    <!-- Forgot Password Text -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:paddingEnd="20dp"
-        android:paddingTop="10dp"
-        android:text="Forgot Password"
-        android:textSize="16dp"
-        android:textColor="#FFA500" />
-
-    <!-- Login Button -->
+    <!-- Reset Password Button -->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Reset Password"
         android:textSize="20dp"
         android:textColor="#FFFFFF"
         android:background="@drawable/rounded_button_bg"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-    android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp" />
 
-    <!-- Signup Text -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign up"
+        android:text="Go Back"
         android:textSize="16dp"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_marginTop="150dp" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="400dp"
+        android:paddingLeft="150dp"
+        android:textColor="#000000" />
+
+
 
 </LinearLayout>
