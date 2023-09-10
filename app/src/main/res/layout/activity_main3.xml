@@ -100,15 +100,16 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp" />
 
-    <!-- Select Country Input Field (You can use a Spinner or another input method here) -->
-    <Spinner
-        android:id="@+id/spinnerCountry"
+    <!-- Enter Contact Number Input Field -->
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Select Country"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
         android:textSize="21dp" />
+
 
     <!-- City -->
     <TextView
@@ -121,14 +122,17 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp" />
 
-    <Spinner
-        android:id="@+id/spinnerCity"
+    <!-- Enter Contact Number Input Field -->
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Select City"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
         android:textSize="21dp" />
+
+
     <!-- Sign Up Button -->
     <Button
         android:layout_width="match_parent"
