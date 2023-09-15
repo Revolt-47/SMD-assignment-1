@@ -7,24 +7,79 @@
     android:orientation="vertical"
     android:weightSum="1"
     tools:context=".MainActivity8">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_weight="0.9">
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chat"
-            android:textSize="25dp"
             android:layout_margin="10dp"
+            android:text="Chat"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@color/black"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_run_circle_24" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Najam Sethi"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 new messege"
+                    android:textColor="#F44336"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#90000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,43 +90,47 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:scaleType="fitXY"
                 android:layout_gravity="center"
                 android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_run_circle_24"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_run_circle_24" />
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="0.6"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Najam Sethi"
-                    android:textSize="20dp"
                     android:textColor="@color/black"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="1 new messege"
-                    android:textSize="15dp"
-                    android:textColor="#F44336" />
+                    android:textColor="#F44336"
+                    android:textSize="15dp" />
             </LinearLayout>
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:scaleType="fitXY"
                 android:layout_gravity="center"
                 android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#90000000"/>
+            android:background="#90000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -82,43 +141,47 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:scaleType="fitXY"
                 android:layout_gravity="center"
                 android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_run_circle_24"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_run_circle_24" />
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="0.6"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Najam Sethi"
-                    android:textSize="20dp"
                     android:textColor="@color/black"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="1 new messege"
-                    android:textSize="15dp"
-                    android:textColor="#F44336" />
+                    android:textColor="#F44336"
+                    android:textSize="15dp" />
             </LinearLayout>
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:scaleType="fitXY"
                 android:layout_gravity="center"
                 android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#90000000"/>
+            android:background="#90000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,106 +192,63 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:scaleType="fitXY"
                 android:layout_gravity="center"
                 android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_run_circle_24"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_run_circle_24" />
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="0.6"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Najam Sethi"
-                    android:textSize="20dp"
                     android:textColor="@color/black"
-                    android:textStyle="bold"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="1 new messege"
-                    android:textSize="15dp"
-                    android:textColor="#F44336" />
+                    android:textColor="#F44336"
+                    android:textSize="15dp" />
             </LinearLayout>
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:scaleType="fitXY"
                 android:layout_gravity="center"
                 android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#90000000"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_margin="10dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:scaleType="fitXY"
-                android:layout_gravity="center"
-                android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_run_circle_24"/>
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="60dp"
-                android:layout_weight="0.6"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Najam Sethi"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1 new messege"
-                    android:textSize="15dp"
-                    android:textColor="#F44336" />
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:scaleType="fitXY"
-                android:layout_gravity="center"
-                android:layout_weight="0.2"
-                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#90000000"/>
+            android:background="#90000000" />
 
     </LinearLayout>
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:weightSum="1"
         android:layout_height="0dp"
-        android:layout_weight="0.1">
+        android:layout_weight="0.2"
+        android:weightSum="1">
 
         <LinearLayout
+            android:id="@+id/home"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -243,11 +263,12 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/search"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -262,21 +283,21 @@
         </LinearLayout>
 
 
-
         <ImageView
+            android:id="@+id/add"
             android:layout_width="50dp"
             android:layout_height="70dp"
             android:layout_weight="0.3"
             android:src="@drawable/ic_baseline_add_circle_24" />
 
 
-
         <LinearLayout
+            android:id="@+id/chat"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -291,11 +312,12 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/profile"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"

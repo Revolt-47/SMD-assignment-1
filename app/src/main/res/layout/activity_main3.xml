@@ -11,40 +11,40 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@mipmap/spotit"
         android:layout_marginTop="40dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Registration"
-        android:textSize="25dp"
-        android:textColor="#000000"
-        android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Registration"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <!-- Name -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
-        android:textSize="16dp"
-        android:layout_marginBottom="5dp"
-        android:textColor="#000000"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="16dp" />
 
     <!-- Enter Name Input Field -->
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter name"
+        android:layout_height="40dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
+        android:hint="Enter name"
         android:textSize="21dp" />
 
     <!-- Email -->
@@ -61,11 +61,11 @@
     <!-- Enter Email Input Field -->
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter email"
+        android:layout_height="40dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
+        android:hint="Enter email"
         android:textSize="21dp" />
 
     <!-- Contact Number -->
@@ -82,11 +82,11 @@
     <!-- Enter Contact Number Input Field -->
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter contact number"
+        android:layout_height="40dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
+        android:hint="Enter contact number"
         android:textSize="21dp" />
 
     <!-- Country -->
@@ -103,11 +103,11 @@
     <!-- Enter Contact Number Input Field -->
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Select Country"
+        android:layout_height="40dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
+        android:hint="Select Country"
         android:textSize="21dp" />
 
 
@@ -125,36 +125,38 @@
     <!-- Enter Contact Number Input Field -->
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Select City"
+        android:layout_height="40dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/rounded_edittext_bg"
+        android:hint="Select City"
         android:textSize="21dp" />
 
 
     <!-- Sign Up Button -->
     <Button
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
-        android:textSize="20dp"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/rounded_button_bg"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button_bg"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
 
     <!-- Login Text and Button -->
     <TextView
+        android:id="@+id/lgn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textSize="16dp"
-        android:textColor="#000000"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="10dp"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="16dp" />
 
     <!-- Add an onClick attribute for the Login TextView to handle the login action -->
 

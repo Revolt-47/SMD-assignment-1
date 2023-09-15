@@ -44,27 +44,29 @@
 
     <!-- Reset Password Button -->
     <Button
+        android:id="@+id/rstpwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reset Password"
-        android:textSize="20dp"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/rounded_button_bg"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_button_bg"
+        android:text="Reset Password"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
 
     <TextView
+        android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go Back"
-        android:textSize="16dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginBottom="5dp"
         android:layout_marginTop="400dp"
+        android:layout_marginBottom="5dp"
         android:paddingLeft="150dp"
-        android:textColor="#000000" />
+        android:text="Go Back"
+        android:textColor="#000000"
+        android:textSize="16dp" />
 
 
 

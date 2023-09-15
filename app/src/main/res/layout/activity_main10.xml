@@ -31,12 +31,14 @@
                     android:layout_gravity="center"
                     android:textColor="@color/black"
                     android:textStyle="bold"/>
+
                 <ImageView
+                    android:id="@+id/edit"
                     android:layout_width="0dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_baseline_edit_calendar_24"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="0.2"
-                    android:layout_marginTop="10dp"/>
+                    android:src="@drawable/ic_baseline_edit_calendar_24" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -691,18 +693,18 @@
 
     </ScrollView>
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:weightSum="1"
         android:layout_height="0dp"
         android:layout_weight="0.1">
 
         <LinearLayout
+            android:id="@+id/home"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -717,11 +719,12 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/search"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -736,21 +739,21 @@
         </LinearLayout>
 
 
-
         <ImageView
+            android:id="@+id/add"
             android:layout_width="50dp"
             android:layout_height="70dp"
             android:layout_weight="0.3"
             android:src="@drawable/ic_baseline_add_circle_24" />
 
 
-
         <LinearLayout
+            android:id="@+id/chat"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"
@@ -765,11 +768,12 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/profile"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.17"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="50dp"

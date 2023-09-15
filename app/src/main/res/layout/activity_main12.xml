@@ -13,11 +13,12 @@
         android:weightSum="1">
 
         <ImageView
+            android:id="@+id/exit"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_gravity="center"
-            android:src="@drawable/ic_baseline_close_24"
-            android:layout_weight="0.1"/>
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_baseline_close_24" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="50dp"
@@ -46,52 +47,56 @@
         android:weightSum="1">
 
         <LinearLayout
+            android:id="@+id/image"
             android:layout_width="0dp"
             android:layout_height="80dp"
+            android:layout_marginLeft="70dp"
             android:layout_weight="0.4"
-            android:orientation="vertical"
-            android:padding="10dp"
             android:background="@drawable/dotted"
-            android:layout_marginLeft="70dp">
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginBottom="5dp"
-                android:src="@drawable/ic_baseline_camera_alt_24"/>
+                android:src="@drawable/ic_baseline_camera_alt_24" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:textColor="@color/black"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Upload Image"/>
+                android:text="Upload Image"
+                android:textColor="@color/black" />
 
 
         </LinearLayout>
 
 
         <LinearLayout
+            android:id="@+id/video"
             android:layout_width="0dp"
             android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
             android:layout_weight="0.4"
-            android:orientation="vertical"
-            android:padding="10dp"
             android:background="@drawable/dotted"
-            android:layout_marginLeft="30dp">
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginBottom="5dp"
-                android:src="@drawable/ic_baseline_video_call_24"/>
+                android:src="@drawable/ic_baseline_video_call_24" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:textColor="@color/black"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Upload Video"/>
+                android:text="Upload Video"
+                android:textColor="@color/black" />
 
         </LinearLayout>
 

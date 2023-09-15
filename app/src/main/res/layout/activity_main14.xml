@@ -13,11 +13,12 @@
         android:weightSum="1">
 
         <ImageView
+            android:id="@+id/back"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_gravity="center"
-            android:src="@drawable/ic_baseline_close_24"
-            android:layout_weight="0.1"/>
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_baseline_close_24" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="50dp"
